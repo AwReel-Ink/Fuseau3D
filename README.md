@@ -26,3 +26,4 @@ Déposez le nouveau `index.html` et le nouveau `sw.js` dans le dépôt, en rempl
 
 ---
 Leroy Aurélien - 2026 - Tous droits réservés.
+Réaliser avec IA.
