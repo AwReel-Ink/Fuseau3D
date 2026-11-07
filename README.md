@@ -4,14 +4,6 @@ Fuseau est un modeleur 3D paramétrique léger dans l'esprit de Fusion 360 : esq
 
 L'application tient en un seul fichier `index.html`, sans serveur ni compte. Elle fonctionne hors ligne une fois ouverte.
 
-## Mettre en ligne sur GitHub Pages
-
-1. Sur GitHub, créez un nouveau dépôt public, par exemple `fuseau`.
-2. Sur la page du dépôt, cliquez **Add file → Upload files**, puis glissez **tout le contenu** de ce dossier : `index.html`, `manifest.webmanifest`, `sw.js`, les icônes, `.nojekyll` et ce fichier. Validez avec **Commit changes**.
-   - Le fichier `.nojekyll` est caché sur certains systèmes. S'il manque, ce n'est pas bloquant.
-3. Ouvrez **Settings → Pages**. Sous *Build and deployment*, choisissez **Source : Deploy from a branch**, puis la branche **main** et le dossier **/ (root)**. Cliquez **Save**.
-4. Au bout d'une à deux minutes, l'adresse s'affiche en haut de la page : `https://<votre-identifiant>.github.io/fuseau/`.
-
 ## Installer sur l'iPad
 
 1. Ouvrez l'adresse dans **Safari**.
