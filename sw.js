@@ -1,5 +1,5 @@
-// Fuseau 02.60 : fonctionne hors ligne une fois ouvert
-const CACHE = 'fuseau-02.60-mw76qoiz';
+// Fuseau 02.61 : fonctionne hors ligne une fois ouvert
+const CACHE = 'fuseau-02.61-mw8b1aiw';
 const FILES = ['./', 'index.html', 'moteur3d.wasm.gz', 'manifest.webmanifest', 'icon.svg', 'icon-192.png', 'icon-512.png', 'icon-maskable-512.png', 'apple-touch-icon.png'];
 self.addEventListener('install', (e) => { e.waitUntil(caches.open(CACHE).then((c) => c.addAll(FILES)).then(() => self.skipWaiting())); });
 self.addEventListener('activate', (e) => { e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k !== CACHE).map((k) => caches.delete(k)))).then(() => self.clients.claim())); });
